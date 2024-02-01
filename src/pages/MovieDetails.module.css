@@ -1,0 +1,34 @@
+.movieDetails {
+    background-color: rgb(114, 114, 117);
+    padding: 25px;
+}
+.title {
+    text-align: center;
+}
+.navList {
+    display: flex;
+    list-style: none;
+ 
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.active {
+    color: rgb(43, 16, 80);
+}
+.backLink {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(78, 78, 80);
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 5px;
+}

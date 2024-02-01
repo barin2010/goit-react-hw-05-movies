@@ -1,0 +1,86 @@
+.container {
+    background-color: rgb(126, 124, 127);
+   
+}
+
+.movieDetails {
+    padding: 25px;
+   display: flex;
+   justify-content: center;
+   width: 80%;
+   background-color: rgb(102, 101, 103); 
+   margin: 0 auto;
+   border-radius: 10px;
+}
+.moviePoster {
+    width: 300px;
+    height: 400px;
+}
+.movieInfo {
+    list-style: none;
+
+}
+
+.movieTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(18, 16, 16);
+    margin-bottom: 20px;
+    padding: 0;
+}
+.movieRelease, .movieRating, .movieOverview, .movieGenres {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(18, 16, 16);
+    margin-bottom: 20px;
+    padding: 0;
+}
+.navLinkWrapper {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.navList {
+    display: flex;
+    gap : 30px;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+}
+.navLinkItem {
+    padding: 5px;
+     list-style: none;
+     margin-bottom: 20px;
+}
+.navLink {
+    text-decoration: none;
+    color: rgb(18, 16, 16);
+    cursor: pointer;
+    transition: 0.5s;
+   font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(41, 43, 43);
+    background-color: rgb(102, 101, 103);
+}
+.navLink:hover {
+    background-color: rgb(78, 78, 80);
+}
+.active {
+   background-color: rgb(86, 76, 96);
+}
+.loader {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(43, 43, 73);
+}

@@ -1,0 +1,47 @@
+ .container {
+     
+    background-color:  rgb(126, 124, 127);
+    padding: 15px;
+ }
+ .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+ }
+ .input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+ }
+ .button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(78, 78, 80);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ .button:hover {
+    background-color: rgb(99, 99, 131);
+ }
+ .button:focus {
+    background-color: rgb(78, 78, 80);
+ }
+ .previousQuery {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+ }
+ .info {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+color: ffffff;
+ }
+
+ 
